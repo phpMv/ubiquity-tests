@@ -21,8 +21,8 @@ build:
           mysql: 5.7
       tests:
         before:
-          - sudo cp tests/fw/xdebug.ini /home/scrutinizer/.phpenv/versions/7.2.13/etc/conf.d/xdebug.ini
-          - mysql -u root mysql < tests/unit/db/messagerie.sql
+          - sudo cp web/tests/files/xdebug.ini /home/scrutinizer/.phpenv/versions/7.2.13/etc/conf.d/xdebug.ini
+          - mysql -u root mysql < web/tests/unit/db/messagerie.sql
           - (cd web/ && ./vendor/bin/Ubiquity init-cache && composer update -a)
           - sudo chmod 777 -R web/ && sudo chown -R www-data:www-data web/
           - sudo service apache2 restart && sudo service apache2 reload 
