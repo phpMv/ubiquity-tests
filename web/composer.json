@@ -1,0 +1,21 @@
+{
+	"require" : {
+		"php" : "^7.1",
+		"twig/twig" : "^2.0",
+		"mindplay/annotations" : "^1.3",
+		"phpmv/php-mv-ui" : "dev-master",
+		"codeception/c3" : "^2.4",
+		"codeception/codeception" : "^2.5",
+		"phpmv/ubiquity" : "2.0.x-dev",
+		"phpmv/ubiquity-devtools": "^1.1"
+	},
+	"require-dev" : {
+		"monolog/monolog" : "^1.24"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"" : "app/",
+			"Ubiquity\\" : "Ubiquity/"
+		}
+	}
+}

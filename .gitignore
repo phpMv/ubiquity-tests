@@ -1,0 +1,6 @@
+web/cache/
+web/vendor/
+web/composer.lock
+.project
+.buildpath
+.settings/
