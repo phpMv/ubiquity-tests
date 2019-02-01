@@ -42,3 +42,5 @@ checks:
         code_rating: true
 filter:
     paths: ["web/vendor/phpmv/ubiquity/Ubiquity/*"]
+    dependency_paths:
+        - scrutinizer/
