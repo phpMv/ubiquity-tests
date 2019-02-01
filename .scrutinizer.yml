@@ -46,3 +46,10 @@ checks:
         code_rating: true
 filter:
     paths: ["web/Ubiquity/*"]
+    excluded_paths:
+        - web/Ubiquity/log/
+        - web/Ubiquity/controllers/Autoloader.php
+        - web/Ubiquity/controllers/admin/
+        - web/Ubiquity/annotations/
+        - web/Ubiquity/js/Jquery.php
+        - web/Ubiquity/utils/git/UGitRepository.php
