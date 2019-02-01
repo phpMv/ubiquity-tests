@@ -4,6 +4,7 @@ build:
       dependencies:
         before:
           - (cd web/ && composer update)
+          - cp -R web/vendor/phpmv/ubiquity/Ubiquity web/Ubiquity/
       environment:
         php:
           version: 7.2
@@ -44,6 +45,4 @@ checks:
     php:
         code_rating: true
 filter:
-    paths: ["web/vendor/phpmv/ubiquity/Ubiquity/*"]
-    dependency_paths:
-        - scrutinizer/
+    paths: ["web/Ubiquity/*"]
