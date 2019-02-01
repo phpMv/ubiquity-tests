@@ -41,12 +41,4 @@ checks:
     php:
         code_rating: true
 filter:
-    paths: ["web/vendor/phpmv/ubiquity/Ubiquity/"]
-    excluded_paths:
-        - web/vendor/phpmv/ubiquity/Ubiquity/log/
-        - web/vendor/phpmv/ubiquity/Ubiquity/controllers/Autoloader.php
-        - web/vendor/phpmv/ubiquity/Ubiquity/controllers/admin/
-        - web/vendor/phpmv/ubiquity/Ubiquity/annotations/
-        - web/vendor/phpmv/ubiquity/Ubiquity/cache/
-        - web/vendor/phpmv/ubiquity/Ubiquity/js/Jquery.php
-        - web/vendor/phpmv/ubiquity/Ubiquity/utils/git/UGitRepository.php
+    paths: ["web/vendor/phpmv/ubiquity/Ubiquity/*"]
