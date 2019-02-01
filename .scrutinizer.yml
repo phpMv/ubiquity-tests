@@ -3,8 +3,8 @@ build:
     analysis:
       dependencies:
         before:
-          - (cd web/ && composer update)
-          - cp -R web/vendor/phpmv/ubiquity/Ubiquity web/Ubiquity/
+#          - (cd web/ && composer update)
+#          - cp -R web/vendor/phpmv/ubiquity/Ubiquity web/Ubiquity/
       environment:
         php:
           version: 7.2
