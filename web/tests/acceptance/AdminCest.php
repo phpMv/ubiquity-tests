@@ -3,10 +3,7 @@ class AdminCest {
 	const TIMEOUT = 15;
 
 	public function _before(AcceptanceTester $I) {
-		/*
-		 * $I->amOnPage ( "/blank.html" );
-		 * $I->setCookie ( 'PHPSESSID', 'el4ukv0kqbvoirg7nkp4dncpk3' );
-		 */
+
 	}
 
 	// tests
