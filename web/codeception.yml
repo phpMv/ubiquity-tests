@@ -13,7 +13,6 @@ coverage:
     remote: false
     c3_url: 'http://dev.local'
     include:
-        - app/Classes/*
         - vendor/phpmv/ubiquity/Ubiquity/*.php
 reporters:
     xml: Codeception\PHPUnit\Log\JUnit
